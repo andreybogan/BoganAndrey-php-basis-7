@@ -57,3 +57,7 @@ header {
 .itemBasket input {
     display: inline-block;
 }
+
+.link_button {
+    display: inline-block;
+}

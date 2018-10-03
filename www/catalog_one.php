@@ -3,10 +3,7 @@ header("Content-type: text/html; charset=utf-8");
 
 // Поключаем файлы конфигурации и функции.
 include __DIR__ . "/../global/config.php";
-include GLOBAL_DIR . "fns/fns_db.php";
-include GLOBAL_DIR . "fns/fns_catalog.php";
-include GLOBAL_DIR . "fns/fns_basket.php";
-include GLOBAL_DIR . "fns/fns_render.php";
+include GLOBAL_DIR . "fns/fns_sum.php";
 include GLOBAL_DIR . "onload.php";
 
 // Получаем информацию о товаре из базы.
